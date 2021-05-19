@@ -55,3 +55,10 @@ return true;
 
 }
 
+// Adding blocks to the blockchain
+// create a block chain
+console.log(" creating and adding blocks to the blockchain);
+let myBlockChain = new Minerblockchain();
+MyBlockchain.addNewBlock(new Minerblock(1,01/05/2021,{sender:"Idoge",receiver:"Iyosi", quantity:50})
+);
+MyBlockchain.addNewBlock(new Minerblock(2,01/06/2021,{sender:"Oluke" receiver:"Doris" quantity:70})):
