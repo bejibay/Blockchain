@@ -1,20 +1,20 @@
 
 // Node.js is installed
 
-const Sha256= require("crysto-js/sha256");
+const SHA256= require("crypto-js/sha256");
 // create the block class
 class Minerblock{
 // define and initialise the block
-Constructor(index,timestamp,data,previousblockhash="")
+Constructor(index,timestamp,data,previousBlockHash="")
 {this.index=index:
 this.timestamp=timestamp;
 this.data=data;
-this.previousblockhash=previousblockhash;
+this.previousBlockHash=previousBlockHash;
 this.hash=this.calculateHash();
 this.nonce=o;
 }
 calculateHash(){
-return sha256(this.index+this.timestamp+JSON.stringify(this.data)+this.previousblockhash+this.nonce).toString();
+return SHA256(this.index+this.timestamp+JSON.stringify(this.data)+this.previousBlockHash+this.nonce).toString();
 }
 proofOfWork(difficulty){
 while(this.hash.substring()!=Array(difficulty+1).join("0")) 
@@ -36,7 +36,7 @@ latestBlock(){
 return this.blockchain[this.blockchain.length-1];
 }
 addNewBlock(newBlock){
-newBlock.previousblockhash=this.latestBlock().hash;
+newBlock.previousBlockHash=this.latestBlock().hash;
 newBlock.hash=newBlock.calculateHash();
 newBlock.proofOfWork(this.difficulty);
 this.blockchain.push(newBlock);
@@ -47,7 +47,7 @@ let previousBlock=this.blockchain[i-1];
 for(let i=1; i<this.blockchain.length;i++){
 if(currentBlock.hash!=this.calculateHash()){
 return false;}
-if(currentBlock.previousblockhash!=previousBlock.hash){
+if(currentBlock.previousBlockHash!=previousBlock.hash){
 return false;}
 return true;
 }
