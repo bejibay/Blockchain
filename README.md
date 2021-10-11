@@ -4,7 +4,7 @@
 JavaScript, Nodejs                                               
 ### Objectives                 
 *To Illustrate How A Blockchain Is Created 
-```
+
 ### Note 
 *A bockchan can be created with any other language
  such as Python, PHP, Java, Solidity, C++ etc
