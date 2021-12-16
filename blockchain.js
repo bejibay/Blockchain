@@ -6,7 +6,7 @@ const SHA256= require("crypto-js/sha256");
 class Minerblock{
 // define and initialise the block
 Constructor(index,timestamp,data,previousBlockHash="")
-{this.index=index:
+{this.index=index;
 this.timestamp=timestamp;
 this.data=data;
 this.previousBlockHash=previousBlockHash;
