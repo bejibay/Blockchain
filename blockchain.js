@@ -42,7 +42,7 @@ newBlock.proofOfWork(this.difficulty);
 this.blockchain.push(newBlock);
 }
 validityOfBlock(){
-Let currentBlock=this.blockchain[i];
+let currentBlock=this.blockchain[i];
 let previousBlock=this.blockchain[i-1];
 for(let i=1; i<this.blockchain.length;i++){
 if(currentBlock.hash!=this.calculateHash()){
@@ -61,4 +61,4 @@ console.log(" creating and adding blocks to the blockchain");
 let myBlockChain = new Minerblockchain();
 MyBlockChain.addNewBlock(new Minerblock(1,"01/05/2021",{sender:"Idoge",receiver:"Iyosi", quantity:50})
 );
-MyBlockChain.addNewBlock(new Minerblock(2,"01/06/2021",{sender:"Oluke", receiver:"Doris" quantity:70})):
+MyBlockChain.addNewBlock(new Minerblock(2,"01/06/2021",{sender:"Oluke", receiver:"Doris", quantity:70}));
