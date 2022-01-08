@@ -17,7 +17,7 @@ calculateHash(){
 return SHA256(this.index+this.timestamp+JSON.stringify(this.data)+this.previousBlockHash+this.nonce).toString();
 }
 proofOfWork(difficulty){
-while(this.hash.substring()!=Array(difficulty+1).join("0")) 
+while(this.hash.substring(0,difficulty)!=Array(difficulty+1).join("0")) 
 {this.nonce++;
 this.hash=this.calculateHash();}
 }
