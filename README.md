@@ -1,15 +1,13 @@
-# Blockchain
-## Technologies
-... 
-JavaScript, Nodejs                                               
-### Objectives                 
-*To Illustrate How A Blockchain Is Created 
-
+# Buildblochains
+* The Buildblochains contains lines of codes(in JavaScript and nodejs) for
+building blockchains which are used in cyptocurrencies, smart contracts
+and decentralised applications(DAPPS).
+It contains proof of work and proof of validity.
+In the future, the codes will be extended with:
+use of transactions,peer to peer communications 
+and use of wallets(user interface for cyptocurrecies)                                                    
 ### Note 
 *A blockchan can be created with any other language
  such as Python, PHP, Java, Solidity, C++ etc
-
-### The codes for the Minerblockchain is found in blockchain.js
-#### Node.js is installed
 
 
