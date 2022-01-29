@@ -1,0 +1,11 @@
+{
+"name": "Buildblockhain",
+"version" :"1.0.0",
+"description" : "lines of codes for building blockchain",
+*author" : {"name" :"Bejibay",
+            "email" :"bejibay@gmail.com"
+            },
+"repository":{"type": "git",
+              "url" :"https://github.com/bejibay/Buildblockchains"
+             }
+}
