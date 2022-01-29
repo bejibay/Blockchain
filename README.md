@@ -2,8 +2,8 @@
 * The Buildblochains contains lines of codes(in JavaScript and nodejs) for
 building blockchains which are used in cyptocurrencies, smart contracts
 and decentralised applications(DAPPS).
-It contains proof of work and proof of validity.
-In the future, the codes will be extended with:
+* It contains proof of work and proof of validity.
+* In the future, the codes will be extended with:
 use of transactions,peer to peer communications 
 and use of wallets(user interface for cyptocurrecies)                                                    
 ### Note 
