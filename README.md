@@ -1,4 +1,4 @@
-# Buildblockhains
+# Buildblockchains
 * The Buildblochains contains lines of codes(in JavaScript and nodejs) for
 building blockchains which are used in cyptocurrencies, smart contracts
 and decentralised applications(DAPPS).
